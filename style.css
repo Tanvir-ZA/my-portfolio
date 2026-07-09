@@ -134,3 +134,73 @@ nav ul a{
 .about-items h3{
     font-weight: bold;
 }
+
+/* what i do css */
+
+.whatido-section{
+    margin: 60px auto;
+    text-align: center;
+}
+.whatido-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+
+}
+.whatido-card{
+    
+    width: 267px;
+    height: 377px;
+    padding: 33px;
+    text-align: left;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+     cursor:pointer;
+     
+   
+
+}
+.whatido-card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+    
+    
+}
+   
+    
+    
+
+.whatido-section h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.whatido-section p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.whatido-card>img{
+    margin-bottom: 30px;
+    
+
+.whatido-card>h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.whatido-card>p{
+    font-weight: normal;
+    font-size: 16px;
+    color: #757575;
+
+}
+
+
+
+    
+
+
+

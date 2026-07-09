@@ -1,0 +1,89 @@
+/* shared css */
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-weight:normal;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary{
+    background-color: white;
+    color: #FD6E0A;
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-weight:normal;
+    font-size: 18px;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: #FFF8F3;
+}
+/* nav css */
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style:none;
+    gap: 25px;
+    align-items: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(34, 33, 33) ;
+}
+.logo{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.logo-v{
+    color: #FD6E0A;
+}
+
+/* hero css */
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left h2{
+    font-size: 45px;
+
+}
+
+.hero-left h1{
+    font-size: 85px ;
+    margin-bottom: 5px;
+}
+
+.hero-left p{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
